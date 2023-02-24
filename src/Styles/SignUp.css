@@ -1,0 +1,58 @@
+.register{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+}
+.img_logo{
+    width: 100px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+.register > form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* padding: 20px; */
+    
+}
+.register p{
+    text-align: center;
+}
+.register form > input{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid lightgray;
+}
+.register form > button{
+    padding: 10px;
+    margin: 5px;
+    background: rgb(0, 170, 255);
+    border: none;
+    outline: none;
+    width: 98%;
+    cursor: pointer;
+    color: white;
+}
+.register form > button:hover{
+    background: blue;
+}
+.signin{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* width: 100%; */
+}
+.signin > p{
+    text-align: center;
+}
+.signin > p:nth-child(2){
+    color: rgb(0, 170, 255);
+    cursor: pointer;
+}
+@media(max-width: 978px){
+    .register form {
+        width: 80%;
+    }
+}

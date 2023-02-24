@@ -1,0 +1,38 @@
+.navicons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+}
+.avatar_icon{
+    height: 20px !important;
+    width: 20px !important;
+    object-fit: contain !important;
+}
+
+
+@media(max-width: 768px){
+    .navicons > p{
+        text-align: center;
+        color: gray;
+        width: 100%;
+    }
+    .navicons > h3{
+        color: gray;
+    }
+}
+@media(max-width: 576px){
+    .navicons > p{
+        text-align: center;
+        font-size: 12px;
+        color: gray;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px){
+    .navicons > p{
+        font-size: 10px;
+    }
+
+}

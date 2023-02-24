@@ -1,0 +1,237 @@
+.right_sidebar{
+    text-align: center;
+    flex: 0.2;
+    height: fit-content;
+    margin-top: 2%;
+    top: 50px;
+    position: sticky;
+}
+
+.main_ads_img{
+    border: 1px solid lightgray;
+    padding:8px;
+    border-radius: 1rem;
+}
+.right_sidebar .right_links{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 75%;
+    margin-top: 10px;
+}
+.right_links > p{
+    font-size: 12px;
+    text-align: center;  
+    color: gray;
+    margin: 3px;
+    text-transform: capitalize;
+}
+.right_links > p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+.copy_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 20%;
+}
+.copy_right > img{
+    width: 60px;
+    object-fit: contain;
+}
+.copy_right > p{
+    font-size: 12px;
+}
+
+.right_sidebar footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    padding: 8px;
+    border-radius: 1rem;
+    width: 25%;
+}
+.footer_menu_display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 3px;
+}
+.right_side{
+    display: flex;
+    align-items: center;
+    color: grey;
+    justify-content: space-evenly;
+    width: 40%;
+    cursor: pointer;
+}
+
+.right_side > h4:hover{
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+    
+}
+.footer_avatar_icon{
+    height: 30px !important;
+    width: 30px !important;
+    object-fit: contain !important;
+}
+.left_side > p{
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: grey;
+}
+.messaging_avatar_icon{
+    height: 30px !important;
+    width: 30px !important;
+}
+.footer_messaging_content .navbar_search_container{
+    width: 100%;
+    padding: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-radius: 1px;
+}
+.footer_messaging_content .navbar_search_container .footer_search{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.ads2{
+    border: 1px solid lightgray;
+    padding:8px;
+    border-radius: 1rem;
+    margin-top: 3px;
+    background: #fff;
+}
+.ads2 .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.ads2 .top > p{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.ads2 .top > h1{
+    font-size: 15px;
+    font-family: cursive;
+    background: gray;
+    color: white;
+    border-radius: .2rem;
+    padding: 2px 6px;
+    text-align: center;
+}
+
+.middle_container{
+    display: flex;
+    align-items: center;
+}
+.middle_content{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: left;
+
+}
+.middle_content > p{
+    font-weight: lighter;
+}
+.middle_content > button{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #222;
+    border-radius: 2rem;
+    font-size: 16px;
+}
+.middle_content > button:hover{
+    cursor: pointer;
+    background: aliceblue;
+}
+.recommendations{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 3px;
+    width: 75%;
+    font-size: 15px;
+    padding: 5px;
+}
+.recommendations:hover{
+    background: lightgray;
+    cursor: pointer;
+}
+.ads3{
+    border: 1px solid lightgray;
+    padding:8px;
+    border-radius: 1rem;
+    margin-top: 3px;
+    background: #fff;
+}
+.ad{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: gray;
+}
+.ads3 .ads3_text > p{
+    margin-top: 3px;
+    font-weight: lighter;
+    color: gray;
+    font-size: 13px;
+}
+.ads_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.ads_img>img{
+    width: 80px;
+}
+.ads_txt > p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: gray;
+}
+.ads_txt > button{
+    padding: 3px 6px;
+    border-radius: 1rem;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+
+
+@media(max-width: 768px){
+    .right_sidebar{
+        display: none;
+        
+    }
+}

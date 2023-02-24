@@ -1,0 +1,17 @@
+ .events_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #333;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.events_container h3{
+    padding-right: 5%;
+}
+.events_container:hover{
+    background: lightgray;
+    cursor: pointer;
+}
